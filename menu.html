@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu-GoodFood</title>
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/popUps.css">
+    
+    <link rel="stylesheet" href="styles/menu/sideBars.css">
+    <link rel="stylesheet" href="styles/menu/menu.css">
+    
+</head>
+<body class="menu-body" id="menu-body">
+
+    <div class="show-orders">
+        Show your table
+    </div>
+
+    <header class="menu-header">
+        <button class="menu-header-button"> <a href="index.html">HOME</a> </button>
+        <button class="menu-header-button"> <a href="contact.html">CONTACTS</a> </button>
+        <button class="menu-header-button js-login-button">SIGN UP</button>
+    </header>
+
+    <nav class="menu-nav">
+        <a href="#menu-body" class="nav-button">Events</a>
+        <a href="#our-menu" class="nav-button">Entree</a>
+        <a href="#main-dishes" class="nav-button">Main dishes</a>
+        <a href="#Dessert" class="nav-button">Dessert</a>
+    </nav>
+
+    <div class="table">
+        <div class="table-header">
+            <p>your orders: </p>
+            <button class="book-button js-book-button">book a table</button>
+            <button class="book-button js-book-button">delever</button>
+        </div>
+        
+        <div class="order-list">
+
+        </div>
+
+        <div class="bill">
+            <p class="total-price-title">Total Price: </p>
+            <p class="total-price">0$</p>
+        </div>
+        <button class="book-button" id="delete-all">Delete all</button>
+    </div>
+
+    <section class="main-content event-area">
+        <p class="titles">&#x2022;EVENTS</p>
+        <div class="divider"></div>
+
+        <section class="events-section">
+                <div class="event-container">
+                    <div class="event">
+                        <div class="event-name-container">
+                            <p class="event-name">this is the event name111</p>
+                        </div>
+            
+                        <div class="event-infos-container">
+                            <div class="event-img-container">
+                                <img class="event-img" src="images/food-event.jpg" alt="">
+                            </div>
+            
+                            <div class="event-discription-container">
+                                <p class="event-discription">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing.
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing.
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing.
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+    
+                                </p>
+                            </div>
+            
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="event-container">
+                    <div class="event">
+                        <div class="event-name-container">
+                            <p class="event-name">this is the event name222</p>
+                        </div>
+            
+                        <div class="event-infos-container">
+                            <div class="event-img-container">
+                                <img class="event-img" src="images/food-event.jpg" alt="">
+                            </div>
+            
+                            <div class="event-discription-container">
+                                <p class="event-discription">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing.
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing.
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing.
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing.
+    
+                                </p>
+                            </div>
+            
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </section>
+
+    <section class="main-content">
+        <p class="titles" id="our-menu">&#x2022;MENU</p>
+        <div class="divider"></div>
+        <div class="menu">
+            
+            <div class="category">
+                <div class="category-name-container">
+                    <p class="category-name" id="Entree">Entree</p><!--entree---------------------------------------------------->
+                    <div class="category-name-underline"></div>
+                </div>
+                    
+                <!--this is a dish---------------------------->
+                <div class="dish">
+                    <div class="dish-img-container">
+                        <img class="dish-img" src="images/plats/Salade au chèvre chaud.jpg" alt="">
+                    </div>
+                    
+                    <div class="dish-discription">
+                        <p class="dish-name">Salade de chèvre chaud</p>
+                        <div class="dish-ingrediants-container">
+                            <div class="dish-ingrediants">
+                                <p class="Ingrediants">&#x2022;Ingrediants</p>
+                                <li>salade</li>
+                                <li>chèvre</li>
+                                <li>miel</li>
+                                <li>noix</li>
+                            </div>  
+                        </div>
+                    </div>
+                    
+                    <div class="dish-price-container">
+                        <p class="dish-price">Price</p>
+                        <p class="price">12$</p>
+                        <button class="add-to-table-button">Add to table</button>
+                    </div>
+                </div>
+                <!--------------------------------------------> 
+
+                <div class="dish">
+                    <div class="dish-img-container">
+                        <img class="dish-img" src="images/plats/Salade Caesar.jpg" alt="">
+                    </div>
+                    
+                    <div class="dish-discription">
+                        <p class="dish-name">Salade Caesar</p>
+                        <div class="dish-ingrediants-container">
+                            <div class="dish-ingrediants">
+                                <p class="Ingrediants">&#x2022;Ingrediants</p>
+                                <li>salade romaine</li>
+                                <li>poulet</li>
+                                <li>parmesan</li>
+                                <li>croûtons</li>
+                            </div>  
+                        </div>
+                    </div>
+                    
+                    <div class="dish-price-container">
+                        <p class="dish-price">Price</p>
+                        <p class="price">17$</p>
+                        <button class="add-to-table-button">Add to table</button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-img-container">
+                        <img class="dish-img" src="images/plats/Soupe de légumes.jpg" alt="">
+                    </div>
+                    
+                    <div class="dish-discription">
+                        <p class="dish-name">Soupe de légumes</p>
+                        <div class="dish-ingrediants-container">
+                            <div class="dish-ingrediants">
+                                <p class="Ingrediants">&#x2022;Ingrediants</p>
+                                <li>carottes</li>
+                                <li>poireaux</li>
+                                <li>pommes de terre</li>
+                                <li>persil</li>
+                            </div>  
+                        </div>
+                    </div>
+                    
+                    <div class="dish-price-container">
+                        <p class="dish-price">Price</p>
+                        <p class="price">25$</p>
+                        <button class="add-to-table-button">Add to table</button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-img-container">
+                        <img class="dish-img" src="images/plats/Soupe à l'oignon gratinée.jpg" alt="">
+                    </div>
+                    
+                    <div class="dish-discription">
+                        <p class="dish-name">Soupe à l'oignon gratinée</p>
+                        <div class="dish-ingrediants-container">
+                            <div class="dish-ingrediants">
+                                <p class="Ingrediants">&#x2022;Ingrediants</p>
+                                <li>Oignons</li>
+                                <li>fromage</li>
+                                <li>pain</li>
+                            </div>  
+                        </div>
+                    </div>
+                    
+                    <div class="dish-price-container">
+                        <p class="dish-price">Price</p>
+                        <p class="price">30$</p>
+                        <button class="add-to-table-button">Add to table</button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-img-container">
+                        <img class="dish-img" src="images/plats/Tartine au saumon fumé.jpg" alt="">
+                    </div>
+                    
+                    <div class="dish-discription">
+                        <p class="dish-name">Tartine au saumon fumé</p>
+                        <div class="dish-ingrediants-container">
+                            <div class="dish-ingrediants">
+                                <p class="Ingrediants">&#x2022;Ingrediants</p>
+                                <ul>saumon fumé</ul>
+                                <ul>fromage frais</ul>
+                                <ul>ciboulette</ul>
+                            </div>  
+                        </div>
+                    </div>
+                    
+                    <div class="dish-price-container">
+                        <p class="dish-price">Price</p>
+                        <p class="price">25$</p>
+                        <button class="add-to-table-button">Add to table</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="category">
+                <div class="category-name-container">
+                    <p class="category-name" id="main-dishes">Main dishes</p><!--main-------------------------------------------------->
+                    <div class="category-name-underline"></div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-img-container">
+                        <img class="dish-img" src="images/plats/Sauté de veau à la crème.jpg" alt="">
+                    </div>
+                    
+                    <div class="dish-discription">
+                        <p class="dish-name">Sauté de veau à la crème</p>
+                        <div class="dish-ingrediants-container">
+                            <div class="dish-ingrediants">
+                                <p class="Ingrediants">&#x2022;Ingrediants</p>
+                                <li>veau</li>
+                                <li>crème fraîche</li>
+                                <li>champignons</li>
+                                <li>échalotes</li>
+                            </div>  
+                        </div>
+                    </div>
+                    
+                    <div class="dish-price-container">
+                        <p class="dish-price">Price</p>
+                        <p class="price">45$</p>
+                        <button class="add-to-table-button">Add to table</button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-img-container">
+                        <img class="dish-img" src="images/plats/Dos de cabillaud en papillote.jpg" alt="">
+                    </div>
+                    
+                    <div class="dish-discription">
+                        <p class="dish-name">Dos de cabillaud en papillote</p>
+                        <div class="dish-ingrediants-container">
+                            <div class="dish-ingrediants">
+                                <p class="Ingrediants">&#x2022;Ingrediants</p>
+                                <li>cabillaud</li>
+                                <li>courgettes</li>
+                                <li>tomates</li>
+                                <li>persil</li>
+                            </div>  
+                        </div>
+                    </div>
+                    
+                    <div class="dish-price-container">
+                        <p class="dish-price">Price</p>
+                        <p class="price">30$</p>
+                        <button class="add-to-table-button">Add to table</button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-img-container">
+                        <img class="dish-img" src="images/plats/Saumon grillé sauce citron.jpg" alt="">
+                    </div>
+                    
+                    <div class="dish-discription">
+                        <p class="dish-name">Saumon grillé sauce citron</p>
+                        <div class="dish-ingrediants-container">
+                            <div class="dish-ingrediants">
+                                <p class="Ingrediants">&#x2022;Ingrediants</p>
+                                <li>saumon</li>
+                                <li>citron</li>
+                                <li>huile d'olive</li>
+                                <li>persil</li>
+                            </div>  
+                        </div>
+                    </div>
+                    
+                    <div class="dish-price-container">
+                        <p class="dish-price">Price</p>
+                        <p class="price">40$</p>
+                        <button class="add-to-table-button">Add to table</button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-img-container">
+                        <img class="dish-img" src="images/plats/Penne à la tomate.jpg" alt="">
+                    </div>
+                    
+                    <div class="dish-discription">
+                        <p class="dish-name">Penne à la tomate</p>
+                        <div class="dish-ingrediants-container">
+                            <div class="dish-ingrediants">
+                                <p class="Ingrediants">&#x2022;Ingrediants</p>
+                                <li>pâtes</li>
+                                <li>tomatese</li>
+                                <li>basilic</li>
+                                <li>huile d'olive</li>
+                            </div>  
+                        </div>
+                    </div>
+                    
+                    <div class="dish-price-container">
+                        <p class="dish-price">Price</p>
+                        <p class="price">20$</p>
+                        <button class="add-to-table-button">Add to table</button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-img-container">
+                        <img class="dish-img" src="images/plats/Lasagnes aux légumes.jpg" alt="">
+                    </div>
+                    
+                    <div class="dish-discription">
+                        <p class="dish-name">Lasagnes aux légumes</p>
+                        <div class="dish-ingrediants-container">
+                            <div class="dish-ingrediants">
+                                <p class="Ingrediants">&#x2022;Ingrediants</p>
+                                <li>pâtes à lasagnes</li>
+                                <li>légumes</li>
+                                <li>sauce tomate</li>
+                                <li>fromage</li>
+                            </div>  
+                        </div>
+                    </div>
+                    
+                    <div class="dish-price-container">
+                        <p class="dish-price">Price</p>
+                        <p class="price">20$</p>
+                        <button class="add-to-table-button">Add to table</button>
+                    </div>
+                </div>
+            </div>
+        
+
+            <div class="category">
+                <div class="category-name-container">
+                    <p class="category-name" id="Dessert">Dessert</p><!--dessert------------------------------------------------->
+                    <div class="category-name-underline"></div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-img-container">
+                        <img class="dish-img" src="images/plats/Crème brûlée.jpg" alt="">
+                    </div>
+                    
+                    <div class="dish-discription">
+                        <p class="dish-name">Crème brûlée</p>
+                        <div class="dish-ingrediants-container">
+                            <div class="dish-ingrediants">
+                                <p class="Ingrediants">&#x2022;Ingrediants</p>
+                                <li>Crème</li>
+                                <li>sucre</li>
+                                <li>vanille</li>
+                            </div>  
+                        </div>
+                    </div>
+                    
+                    <div class="dish-price-container">
+                        <p class="dish-price">Price</p>
+                        <p class="price">10$</p>
+                        <button class="add-to-table-button">Add to table</button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-img-container">
+                        <img class="dish-img" src="images/plats/Crème caramel.jpg" alt="">
+                    </div>
+                    
+                    <div class="dish-discription">
+                        <p class="dish-name">Crème caramel</p>
+                        <div class="dish-ingrediants-container">
+                            <div class="dish-ingrediants">
+                                <p class="Ingrediants">&#x2022;Ingrediants</p>
+                                <li>Lait entier</li>
+                                <li>sucre</li>
+                                <li>jaunes d'œufs</li>
+                            </div>  
+                        </div>
+                    </div>
+                    
+                    <div class="dish-price-container">
+                        <p class="dish-price">Price</p>
+                        <p class="price">12$</p>
+                        <button class="add-to-table-button">Add to table</button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-img-container">
+                        <img class="dish-img" src="images/plats/Panna cotta à la mangue.jpg" alt="">
+                    </div>
+                    
+                    <div class="dish-discription">
+                        <p class="dish-name">Panna cotta à la mangue</p>
+                        <div class="dish-ingrediants-container">
+                            <div class="dish-ingrediants">
+                                <p class="Ingrediants">&#x2022;Ingrediants</p>
+                                <li>Crème liquide entière</li>
+                                <li>sucre</li>
+                                <li>gélatine</li>
+                                <li>mangue</li>
+                            </div>  
+                        </div>
+                    </div>
+                    
+                    <div class="dish-price-container">
+                        <p class="dish-price">Price</p>
+                        <p class="price">15$</p>
+                        <button class="add-to-table-button">Add to table</button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-img-container">
+                        <img class="dish-img" src="images/plats/Tarte au chocolat.jpg" alt="">
+                    </div>
+                    
+                    <div class="dish-discription">
+                        <p class="dish-name">Tarte au chocolat</p>
+                        <div class="dish-ingrediants-container">
+                            <div class="dish-ingrediants">
+                                <p class="Ingrediants">&#x2022;Ingrediants</p>
+                                <li>Pâte sablée</li>
+                                <li>sucre</li>
+                                <li>beurre</li>
+                                <li>chocolat noir (fondu)</li>
+                            </div>  
+                        </div>
+                    </div>
+                    
+                    <div class="dish-price-container">
+                        <p class="dish-price">Price</p>
+                        <p class="price">10$</p>
+                        <button class="add-to-table-button">Add to table</button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-img-container">
+                        <img class="dish-img" src="images/plats/Tarte Citron.jpg" alt="">
+                    </div>
+                    
+                    <div class="dish-discription">
+                        <p class="dish-name">Tarte Citron</p>
+                        <div class="dish-ingrediants-container">
+                            <div class="dish-ingrediants">
+                                <p class="Ingrediants">&#x2022;Ingrediants</p>
+                                <li>Pâte sablée</li>
+                                <li>crème au citron</li>
+                                <li>meringue italienne</li>
+                            </div>  
+                        </div>
+                    </div>
+                    
+                    <div class="dish-price-container">
+                        <p class="dish-price">Price</p>
+                        <p class="price">7$</p>
+                        <button class="add-to-table-button">Add to table</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/popUps.js"></script>
+
+</body>
+</html>
