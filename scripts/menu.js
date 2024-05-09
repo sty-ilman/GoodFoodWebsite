@@ -21,34 +21,6 @@ showItem(currentIndex);
 let intervalID = setInterval(() => {nextSlide()},4000);
 
 
-
-//the menu side navigation bar--------------------------------------------------------------------  
-let eventSection = document.querySelector('.js-to-event');
-let entreeSection = document.querySelector('.js-to-entree');
-let mainDishSection = document.querySelector('.js-to-main');
-let dessertSection = document.querySelector('.js-to-dessert');
-
-
-eventSection.addEventListener('click', () => {
-    window.scrollTo({top: 0, behavior: 'smooth' })
-})
-
-entreeSection.addEventListener('click', () => {
-    window.scrollTo({top: 660, behavior: 'smooth' })
-})
-
-mainDishSection.addEventListener('click', () => {
-    window.scrollTo({top: 2310, behavior: 'smooth' })
-})
-
-dessertSection.addEventListener('click', () => {
-    window.scrollTo({top: 3860, behavior: 'smooth' })
-})
-
-
-
-
-
 // the menu table ---------------------------------------------------------------------------------------
 
 // the menu table animation:
